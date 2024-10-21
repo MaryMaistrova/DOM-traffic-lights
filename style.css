@@ -1,6 +1,6 @@
 .whole {
   display: flex;
-  border: 1px solid violet;
+  border: 3px solid gray;
   margin: auto;
   width: 700px;
   height: 500px;
@@ -16,6 +16,14 @@ ul {
   flex-direction: column;
   list-style: none;
   gap: 20px;
+  border: double 2px lightseagreen;
+  background-color: #c8e8f4;
+  width: 300px;
+  padding: 20px;
+}
+
+li {
+  margin: auto;
 }
 
 li:first-of-type {
@@ -65,13 +73,13 @@ button:hover {
 }
 
 .red {
-  background-color: red;
+  background-color: red !important;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: yellow !important;
 }
 
 .green {
-  background-color: green;
+  background-color: green !important;
 }
